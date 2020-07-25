@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+.nav {
+    font-family: 'Red Rose', cursive;
+}
+#section-2 {
+    margin-top: 73px;
+}
+.altay-m1
+{
+    margin-top: 100px;
+}
+.altay-mb1
+{
+    margin-bottom: 100px;
+}
+.baslik
+{
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+    text-transform: none;
+    letter-spacing: -0.003em;
+    line-height: 46px;
+    color: rgba(49,50,51,1);
+}
+.content-p
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 30px;
+    color: rgba(132,137,145,1);
+}
+.altay-icon
+{
+    background: rgba(34,147,215,1);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    border-color: rgba(34,147,215,1);
+    font-size: 26px;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid transparent;
+    background-clip: padding-box!important;
+    float: left;
+}
+.altay-icon i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.altay-icon-content {
+    padding-left: 86px;
+    text-align: left;
+}
+.button-altay 
+{
+    color: rgba(34,147,215,1);
+    background-color: #ffffff;
+    border-color: #f5f5f5;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 11px 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.top-header 
+{
+    background-color:rgba(34,147,215,1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.top-header a 
+{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff !important;
+}
+.top-header i 
+{
+    padding-left: 15px;
+}
+.social-media i
+{
+    float: right;
+}
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Red Rose', cursive;
+    color: #fff !important;
+}
+.bg-blu
+{
+    background-color:rgba(34,147,215,1);
+}
+.nav-item a {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    color: #fff !important;
+}
+.header {
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.header::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background: rgba(34,147,215,1);
+    border-radius: 40%;
+    transform-origin: bottom;
+    transform:translateX(-50%) scale(5);
+}
+.header-content
+{
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+    color: #fff;
+}
+.header-content h2 {
+    font-size: 3em;   
+}
